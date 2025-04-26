@@ -10,7 +10,7 @@ module.exports = {
     SESSION_ID: process.env.SESSION_ID || "SUBZERO-MD~4xhnnBqB#k65AL_jKAMkT7jUZRF2mtL5jD_OZ4d4-JN2JPw40cZw",  // Your bot's session ID (keep it secure)
     PREFIX: process.env.PREFIX || "!",         // Command prefix (e.g., "., / ! * - +")
     BOT_NAME: process.env.BOT_NAME || "Kelo",  // Bot's display name
-    MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
+    MODE: process.env.MODE || "private",        // Bot mode: public/private/group/inbox
     REPO: process.env.REPO || "https://github.com/mrfrankofcc/SUBZERO-MD",  // Bot's GitHub repo
 
     // ===== OWNER & DEVELOPER SETTINGS =====
