@@ -7,16 +7,16 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     // ===== BOT CORE SETTINGS =====
-    SESSION_ID: process.env.SESSION_ID || "",  // Your bot's session ID (keep it secure)
-    PREFIX: process.env.PREFIX || ".",         // Command prefix (e.g., "., / ! * - +")
-    BOT_NAME: process.env.BOT_NAME || "SUBZERO-MD",  // Bot's display name
-    MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
+    SESSION_ID: process.env.SESSION_ID || "SUBZERO-MD~4xhnnBqB#k65AL_jKAMkT7jUZRF2mtL5jD_OZ4d4-JN2JPw40cZw",  // Your bot's session ID (keep it secure)
+    PREFIX: process.env.PREFIX || "!",         // Command prefix (e.g., "., / ! * - +")
+    BOT_NAME: process.env.BOT_NAME || "kelo",  // Bot's display name
+    MODE: process.env.MODE || "private",        // Bot mode: public/private/group/inbox
     REPO: process.env.REPO || "https://github.com/mrfrankofcc/SUBZERO-MD",  // Bot's GitHub repo
 
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "263719647303",  // Owner's WhatsApp number
-    OWNER_NAME: process.env.OWNER_NAME || "Mr Frank",           // Owner's name
-    DEV: process.env.DEV || "263719647303",                     // Developer's contact number
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "50955722532",  // Owner's WhatsApp number
+    OWNER_NAME: process.env.OWNER_NAME || "Mr kelo",           // Owner's name
+    DEV: process.env.DEV || "50955722532",                     // Developer's contact number
     DEVELOPER_NUMBER: '263719647303@s.whatsapp.net',            // Developer's WhatsApp ID
 
     // ===== AUTO-RESPONSE SETTINGS =====
